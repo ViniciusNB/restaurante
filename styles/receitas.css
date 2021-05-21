@@ -1,0 +1,222 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+strong{
+    font-weight: 700;
+}
+
+/* FORMATAÇÃO GERAL DAS DIVS */
+.linha{
+    display: flex;
+    justify-items: center;
+}
+
+.coluna{
+    float: left;
+}
+
+.t30{
+    width: 30%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 70px 50px 20px 50px;
+    text-align: justify;
+}
+
+.t50{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.t70{
+    width: 70%;
+    background-color: #000000;
+    color: #D8B891;
+    padding: 70px 20px 20px 50px;
+    text-align: justify;
+}
+
+/* ESTILOS */
+p{
+    font-size: 18px;
+    text-indent: 50px;
+    padding-bottom: 20px;;
+}
+
+h1{
+    color: #c40404;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+h2{
+    color:#c40404;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+/* HEADER */
+.logoDiv{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 10px 10%;
+}
+
+.menu{
+    width: 70%;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+
+#logo{
+    width: 30%;
+}
+
+nav{
+    width: 60%;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    display: inline;
+    width: 100%;
+}
+
+nav li input{
+    text-align: center;
+    align-content: center;
+    font-weight: 800;
+    font-size: 18px;
+    background-color: #c40404;
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+}
+
+nav li input:hover{
+    opacity: 0.8;
+    background-color: #c40404;
+    cursor: pointer;
+}
+
+nav input{
+    color: white;
+}
+
+.buFirst{
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.buLast{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.border{
+    border-left: solid white 3px;
+}
+
+.active{
+    background-color: #000000;
+}
+
+.active:hover{
+    background-color: #000000;
+}
+
+/* FOOTER */
+footer{
+    background-color: #c40404;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p{
+    padding-bottom: 5px;
+    text-indent: 0px;
+}
+
+footer a{
+    color: white;
+}
+
+.redesSocDiv{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redesSocImg{
+    width: 50px;
+    height: 50px;
+}
+
+/* SITE RESPONSIVO: */
+@media screen and (max-width: 1765px){
+    .logoDiv{
+        justify-content: flex-start;
+    }
+
+    #logo{
+        width: 70%;
+    }
+
+    nav{
+        width: 90%;
+    }
+}
+
+#img1{
+    background-image: url(../images/caseiro.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#img2{
+    background-image: url(../images/molho.jpg);
+    background-size: cover;
+    background-position: 45%;
+}
+
+#img3{
+    background-image: url(../images/caleslaw.jpg);
+    background-size: cover;
+    background-position: 55%;
+}
+
+#img4{
+    background-image: url(../images/frango.jpg);
+    background-size: cover;
+}
+
+
+/* BACKGROUND */
+
+body{
+    background: #ffff url(../images/fundo.jpeg) no-repeat right top fixed;
+    background-size: cover;
+}
