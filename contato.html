@@ -1,0 +1,88 @@
+<l!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/reset.css"> 
+        <link rel="stylesheet" type="text/css" href="styles/contato.css">
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+        <title>Contato - Yoda's Burguer</title>
+    </head>
+    <body>
+        <header>
+            <div class="linha">
+                <div class="logoDiv">
+                    <img src="images/logo.png" alt="Logo" id="logo">
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html"><input type="button" class="buFirst" value="Home"/></a></li>
+                            <li><a href="cardapio.html"><input type="button" class="border" value="Cardápio"/></a></li>
+                            <li><a href="receitas.html"><input type="button" class="border" value="Receitas"/></a></li>
+                            <li><a href="unidades.html"><input type="button" class="border" value="Unidades"/></a></li>
+                            <li><a href="contato.html"><input type="button" class="buLast border active" value="Contato"/></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="linha">
+                <div class="conteudo">
+                    <h2>Meios de Contato</h2>
+                    <p><strong>Whatsapp: </strong><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511955555555" target="_blank" id="whatsapp">(11) 9 5555-5555</a></p>
+                    <p><strong>Email: </strong><a href="mailto:contato@yodasburguer.com">contato@yodasburguer.com</a></p>
+                    <h2 class="espacoAntes">Formulário de contato:</h2>
+                    <div>
+                        <form action="" method="POST">
+                            <div class="formsInside">
+                                <input id="pedido" type="number" placeholder="Número do pedido" class="formsInput"/>
+                            </div>
+                            <div class="formsInside">
+                                <input id="nome" type="text" placeholder="Nome" class="formsInput"/>
+                            </div>
+                            <div class="formsInside">
+                                <input id="email" type="email" placeholder="Email" class="formsInput"/>
+                            </div>
+                            <div class="formsInside">
+                                <p class="espacoAntes">Qual nota você daria para sua compra?</p>
+                                <input type="radio" name="nota" value="0" class="formsRadio"/>0
+                                <input type="radio" name="nota" value="1" class="formsRadio"/>1
+                                <input type="radio" name="nota" value="2" class="formsRadio"/>2
+                                <input type="radio" name="nota" value="3" class="formsRadio"/>3
+                                <input type="radio" name="nota" value="4" class="formsRadio"/>4
+                                <input type="radio" name="nota" value="5" class="formsRadio"/>5
+                            </div>
+                            <div class="formsInside espacoAntes">
+                                <p>Digite aqui seu comentário, crítica ou sugestão:</p>
+                                <textarea name="msg" class="formsInput" id="txtArea"></textarea>
+                            </div>
+                            <input type="submit" value="Enviar" id="sendButton"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="linha">
+                <div class="coluna t50">
+                    <div>
+                        <p><strong>Localização (Sede): </strong><a href="https://www.youtube.com/watch?v=sTSA_sWGM440" target="_blank">Av. Bernardino de Campos, 98 - São Paulo, SP 12345-678</a></p>
+                    </div>
+                </div>
+                <div class="coluna t50">
+                    <div class="redesSocDiv">
+                        <a href="https://www.facebook.com" target="_blank"><img src="images/fb.png" alt="Facebook" class="redesSocImg" style="border-radius: 50%;"/></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram" class="redesSocImg" style="border-radius: 50%;"/></a>
+                        <a href="https://www.youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube" class="redesSocImg" style="border-radius: 50%;"/></a>
+                        <a href="https://ifood.com.br" target="_blank"><img src="images/ifood.png" alt="Ifood" class="redesSocImg" style="border-radius: 50%;"/></a>
+                    </div>
+                </div>
+            </div>
+        </footer>        
+    </body>
+</html>
